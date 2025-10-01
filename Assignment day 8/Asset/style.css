@@ -1,0 +1,116 @@
+.circle img{
+    width:  50%;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.curve img{
+    width:  50%;
+    border: 2px solid red;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.rectangle img{
+    width:  50%;
+    border: 2px solid red;
+}
+.close img{
+    width:  50%;
+    border: 2px solid red;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.circle{
+    margin-top: 50px; margin-left: 50px;
+}
+.circle .description{
+    margin-left: 300px; color: blue;
+}
+.curve .user{
+    margin-left: 300px; color: blue;
+}
+.rectangle .john{
+    margin-left: 300px; color: blue;
+}
+.close .new{
+    margin-left: 300px; color: blue;
+}
+.curve{
+    margin-top: 50px; margin-left: 50px;
+}
+.rectangle{
+    margin-top: 50px; margin-left: 50px;
+}
+.close{
+    margin-top: 50px; margin-left: 50px;
+}
+footer center{
+    margin-top: 30px;
+    background-color: black; color: white; padding: 20px; 20px; 20px;
+}
+div img{
+     width:  50%;
+    border: 2px solid red;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+}
+header h1 span{
+    color: white; background-color: blue;
+    margin: auto; text-transform: uppercase;
+}
+body{ background-color: darkmagenta;
+}
+header ul li{
+    float: left; margin: 5px; list-style: none;
+}
+header ul li a:hover{
+    color: black; background-color: white; transition: 1s ease-in-out;
+}
+.header ul li a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+} 
+header .menu .line{
+    width: 30px; height: 2px; background-color: black; margin: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin-bottom: 40px;
+}
+.header .logo img{
+    width: 80px;
+}
+.header nav ul li{
+    float: left;
+    margin: 5px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.header nav ul li a:hover{
+background-color: white; color: black;
+transition: 1s ease-in-out; 
+}
+.header .menu .line{
+    width: 20px;
+    height: 1px;
+    background-color: black;
+    margin: 2px;
+}
